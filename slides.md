@@ -4,219 +4,296 @@ title: Łódź – miasto w ruchu
 transition: slide-left
 mdc: true
 style: |
-  :root {
-    --slidev-theme-primary: #e05a1a;
-  }
   .slidev-layout {
-    background: linear-gradient(135deg, #fdf6ec 0%, #fce9d0 100%);
-    color: #2d1f0f;
+    background: #0f1f2e;
+    color: #e8f0e8;
+    font-family: 'Segoe UI', sans-serif;
   }
   .slidev-layout h1 {
-    color: #c44a0a;
-    border-bottom: 3px solid #e05a1a;
+    color: #4ade80;
+    border-bottom: 3px solid #166534;
     padding-bottom: 0.3em;
+    font-size: 2rem;
   }
   .slidev-layout h2 {
-    color: #b03a00;
+    color: #86efac;
+    font-size: 1.3rem;
+    margin-top: 0.8em;
+  }
+  .slidev-layout p, .slidev-layout li {
+    color: #d1fae5;
+    font-size: 1.05rem;
+    line-height: 1.6;
   }
   blockquote {
-    border-left: 4px solid #e05a1a;
-    background: #fff3e8;
-    padding: 0.6em 1em;
+    border-left: 4px solid #4ade80;
+    background: #0d2d1a;
+    padding: 0.7em 1.2em;
     border-radius: 0 8px 8px 0;
-    color: #5a2d00;
+    color: #bbf7d0;
+    font-style: italic;
   }
   table {
-    background: #fffaf4;
+    width: 100%;
+    border-collapse: collapse;
+    background: #0d2233;
   }
   th {
-    background: #e05a1a;
-    color: white;
+    background: #166534;
+    color: #d1fae5;
+    padding: 0.5em 1em;
+    text-align: left;
   }
   td {
-    border-color: #f0c8a0;
+    border: 1px solid #1e3a2f;
+    padding: 0.5em 1em;
+    color: #d1fae5;
   }
-  .slidev-layout.center {
-    background: linear-gradient(135deg, #e05a1a 0%, #c44a0a 100%);
-    color: white;
+  tr:nth-child(even) td {
+    background: #0f2a1e;
   }
-  .slidev-layout.center h1,
-  .slidev-layout.center h2 {
-    color: white;
-    border-color: rgba(255,255,255,0.4);
+  strong {
+    color: #4ade80;
   }
-  .slidev-layout.center blockquote {
-    background: rgba(255,255,255,0.15);
-    color: white;
-    border-left-color: white;
+  .photo-full {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.25;
+    z-index: 0;
+  }
+  .over-photo {
+    position: relative;
+    z-index: 1;
+  }
+  code {
+    background: #0d2233;
+    color: #4ade80;
+    padding: 0.1em 0.4em;
+    border-radius: 4px;
+  }
+  pre {
+    background: #0d2233 !important;
+    border: 1px solid #166534;
+    border-radius: 8px;
+    color: #4ade80 !important;
   }
 ---
 
-# Łódź – miasto w ruchu 🚋
+<img class="photo-full" src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1600&q=80" />
 
-Jak wygląda komunikacja w mieście, które przebudowuje się na raz z kilku stron?
+<div class="over-photo" style="height:100%;display:flex;flex-direction:column;justify-content:center;padding:2rem;">
 
----
+# Łódź – miasto w ruchu
 
-# Łódź dziś — dwa światy w jednym mieście
+### Komunikacja miejska: historia, tramwaje, korki, kolej i ring
 
-**Świetna lokalizacja**
-
-Środek Polski. Każda trasa przez kraj prowadzi obok Łodzi.
-
-**Komunikacja w remoncie**
-
-Gdziekolwiek spojrzysz — coś jest zakopane, zamknięte albo objazdem.
-
-**Stare i nowe obok siebie**
-
-Rozpadające się kamienice przy ultra-nowoczesnym, podziemnym dworcu Łódź Fabryczna.
-
----
-
-# Dlaczego Łódź wygląda inaczej niż inne miasta?
-
-Łódź wyrosła błyskawicznie — w XIX wieku z małej wsi do wielkiego miasta przemysłowego w ciągu kilkudziesięciu lat.
-
-Nie zdążyła zbudować centrum z rynkiem i uliczkami rozchodzącymi się na boki (jak Kraków).
-
-Zamiast tego — **siatka prostych ulic**, wszystkie prostopadle do siebie, główna oś to Piotrkowska.
-
-> Efekt: ulice są długie i proste. Tramwaj jedzie bez zakrętów, prawie po linii prostej.
-
----
-
-# Tramwaje — Łódź miała je przed Warszawą 🚃
-
-| Rok | Co się stało |
-|-----|-------------|
-| **1898** | Pierwsze elektryczne tramwaje w Łodzi |
-| ok. **1908** | Dopiero wtedy tramwaje w Warszawie |
-| Wiek XX | Tramwaje dojeżdżały aż do Zgierza, Pabianic, Konstantynowa |
-
-Łódź od początku była budowana wokół tramwajów — i to widać do dziś w układzie ulic i osiedli.
+</div>
 
 ---
 layout: two-cols
 ---
 
-# Stajnia Jednorożców 🦄
+# Łódź dziś — dwa światy
 
-Centrum sieci tramwajowej to przystanek **Centrum** — ogromna, kolorowa wiata.
+**Świetna lokalizacja**
 
-Spotykają się tu dwie linie:
-- tramwaj z **północy na południe**
-- tramwaj z **zachodu na wschód** (Retkinia ↔ Widzew)
+Środek Polski. Każda główna trasa przez kraj prowadzi obok Łodzi — stąd bliżej do każdego zakątka Polski niż z jakiegokolwiek innego dużego miasta.
+
+**Komunikacja w permanentnym remoncie**
+
+Gdziekolwiek spojrzysz — coś jest zakopane, zamknięte albo objazdem. To nie przesada, to codzienność od lat.
+
+**Stare i nowe obok siebie**
+
+Rozpadające się przedwojenne kamienice sąsiadują z ultra-nowoczesnym, podziemnym dworcem Łódź Fabryczna — jednym z najbardziej zaawansowanych węzłów kolejowych w Europie.
 
 ::right::
 
-## Przesiadka w 30 sekund
-
-```
-Twoje osiedle
-      ↓
-  Centrum 🦄
-      ↓
-Cel podróży
-```
-
-Z prawie każdego dużego osiedla w Łodzi możesz dojechać dokądkolwiek **jedną przesiadką**, bez wychodzenia poza wiatę, w dosłownie 30 sekund.
+<img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80" style="width:100%;height:100%;object-fit:cover;border-radius:12px;opacity:0.85;" />
 
 ---
 
-# Problem: torowiska, które nie działają 😬
+# Dlaczego Łódź wygląda inaczej?
 
-Sporo tras tramwajowych jest zamkniętych — szyny są zbyt zniszczone, żeby po nich jeździć.
+<img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&q=80" style="width:100%;height:200px;object-fit:cover;border-radius:10px;margin-bottom:1rem;opacity:0.7;" />
 
-- ul. Zielona
-- ul. Legionów (fragmenty)
-- ul. Warszawska
+Łódź wyrosła błyskawicznie — w XIX wieku z małej wsi do wielkiego miasta w ciągu kilkudziesięciu lat. Nie było czasu na planowanie centrum z rynkiem i wąskimi uliczkami (jak w Krakowie).
 
-Na tych trasach kursują **autobusy zamiast tramwajów** — co zmienia rozkłady i wydłuża podróże.
+Zamiast tego — **siatka prostych ulic**, wszystkie prostopadle do siebie. Główna oś: Piotrkowska.
 
-Do tego tramwaje często stoją na skrzyżowaniach tak samo długo jak samochody — bo nie mają pierwszeństwa.
+> Efekt: ulice są długie i proste. Tramwaj jedzie niemal bez zakrętów, od końca do końca miasta.
+
+---
+layout: two-cols
+---
+
+# Tramwaje — Łódź przed Warszawą
+
+<img src="https://images.unsplash.com/photo-1551641506-ee5bf4cb45f1?w=800&q=80" style="width:100%;height:160px;object-fit:cover;border-radius:10px;margin-bottom:1rem;opacity:0.8;" />
+
+| Rok | Co się stało |
+|-----|-------------|
+| **1898** | Pierwsze elektryczne tramwaje w Łodzi |
+| ok. **1908** | Dopiero wtedy pierwsze tramwaje w Warszawie |
+| Wiek XX | Tramwaje dojeżdżają do Zgierza, Pabianic, Konstantynowa |
+
+::right::
+
+<br><br>
+
+Łódź była budowana wokół tramwajów — i widać to do dziś.
+
+Historycznie miała **najdłuższą sieć tramwajów podmiejskich w Polsce**, łącząc okoliczne miasta zanim inne polskie metropolie zelektryfikowały nawet swoje śródmieścia.
+
+Kształt sieci do dziś wyznacza, gdzie rosną osiedla i jak ludzie się przemieszczają.
+
+---
+layout: two-cols
+---
+
+# Stajnia Jednorożców
+
+Centrum całej sieci tramwajowej to przystanek **Centrum** — ogromna, kolorowa zadaszona wiata, gdzie krzyżują się dwie główne linie:
+
+- tramwaj z **północy na południe**
+- tramwaj ze **wschodu na zachód** (Retkinia ↔ Widzew)
+
+Z prawie każdego dużego osiedla w Łodzi dojedziesz dokądkolwiek **jedną przesiadką**, bez wychodzenia poza wiatę, w dosłownie **30 sekund**.
+
+::right::
+
+<img src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=800&q=80" style="width:100%;height:100%;object-fit:cover;border-radius:12px;opacity:0.85;" />
 
 ---
 
-# Korki — Łódź niechlubnym liderem 🚗🚗🚗
+# Problem: torowiska, które nie działają
 
-Rankingi TomTom co roku pokazują Łódź na **1. miejscu w Polsce** i w czołówce Europy pod względem korków.
+<img src="https://images.unsplash.com/photo-1495555961986-b8d01b3e68e5?w=1200&q=80" style="width:100%;height:160px;object-fit:cover;border-radius:10px;margin-bottom:1rem;opacity:0.6;" />
 
-> W godzinach szczytu przejazd przez centrum zajmuje nawet dwa razy dłużej niż poza szczytem.
+Sporo tras tramwajowych jest po prostu **zamkniętych** — szyny są zbyt zniszczone, żeby po nich bezpiecznie jeździć.
 
-**Dlaczego tak jest?**
-- Centrum ma wąskie ulice — mało miejsca dla aut
-- Nowe drogi rowerowe i deptaki zajęły część jezdni
-- Kilkadziesiąt budów i remontów naraz
+- **ul. Zielona** — wyłączona
+- **ul. Legionów** — fragmenty zamknięte
+- **ul. Warszawska** — brak tramwajów
+
+Na tych trasach kursują **autobusy zamiast tramwajów**. Do tego tramwaje często stoją na skrzyżowaniach tyle samo co samochody — bo nie mają sygnalizacji priorytetowej.
+
+> Świetna sieć na mapie, w praktyce — połowa nie działa.
 
 ---
 
-# Obwodnica — autostradowy ring 🛣️
+# Korki — Łódź liderem Europy
 
-Łódź jest **jedynym miastem w Polsce**, które ma pełną, zamkniętą obwodnicę złożoną z autostrad i dróg ekspresowych:
+<img src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?w=1200&q=80" style="width:100%;height:150px;object-fit:cover;border-radius:10px;margin-bottom:1rem;opacity:0.7;" />
 
-| Droga | Strona miasta |
-|-------|--------------|
+Rankingi **TomTom Traffic Index** co roku pokazują Łódź na **1. miejscu w Polsce** i w czołówce Europy pod względem natężenia korków.
+
+| Co? | Ile? |
+|-----|------|
+| Wydłużenie czasu przejazdu przez centrum w szczycie | **+80–100%** |
+| Strefa dotknięta | całe Śródmieście |
+
+**Dlaczego?**
+Wąskie ulice historycznego centrum + drogi rowerowe i deptaki zajęły część jezdni + kilkadziesiąt budów naraz.
+
+---
+layout: two-cols
+---
+
+# Autostradowy ring
+
+Łódź jest **jedynym miastem w Polsce** z pełną, zamkniętą obwodnicą złożoną wyłącznie z autostrad i dróg ekspresowych:
+
+| Droga | Strona |
+|-------|--------|
 | **A1** | Wschód |
 | **A2** | Północ |
 | **S8** | Południe |
 | **S14** | Zachód |
 
-Ciężarówki i tranzyty omijają centrum całkowicie. Łódź jest przez to wielkim centrum magazynowym dla całej Europy.
+Ciężarówki i tranzyty omijają centrum całkowicie.
+
+Efekt: Łódź stała się **największym centrum magazynowym i logistycznym w tej części Europy**.
+
+::right::
+
+<img src="https://images.unsplash.com/photo-1527684651001-731c474bbb5a?w=800&q=80" style="width:100%;height:100%;object-fit:cover;border-radius:12px;opacity:0.8;" />
+
+---
+layout: two-cols
+---
+
+# Tunel pod miastem
+
+Trwa budowa **podziemnej trasy kolejowej** przez całe centrum Łodzi:
+
+```
+Fabryczna → Śródmieście → Polesie
+                        → Koziny
+                        → Kaliska
+                        → Żabieniec
+```
+
+Kiedy tunel będzie gotowy — przejazd przez miasto pociągiem stanie się szybki jak metro. Stacje podziemne będą działać dokładnie jak stacje metra.
+
+**Teraz:** zamknięte ulice nad placem budowy, ogromne tarcze TBM wiercące pod ziemią.
+
+::right::
+
+<img src="https://images.unsplash.com/photo-1515162816999-a0c47dc192f7?w=800&q=80" style="width:100%;height:100%;object-fit:cover;border-radius:12px;opacity:0.8;" />
 
 ---
 
-# Tunel pod miastem — "łódzkie metro" 🚇
+# ŁKA — pociąg zamiast korka
 
-Trwa budowa podziemnej trasy kolejowej przez całe centrum:
+<img src="https://images.unsplash.com/photo-1474487548417-781cb6d646b9?w=1200&q=80" style="width:100%;height:160px;object-fit:cover;border-radius:10px;margin-bottom:1rem;opacity:0.75;" />
 
-```
-Łódź Fabryczna → Śródmieście → Polesie → Koziny
-                                        → Kaliska
-                                        → Żabieniec
-```
-
-Kiedy tunel będzie gotowy — przejazd przez miasto pociągiem będzie szybki jak metro.
-
-Teraz trwa budowa: zamknięte ulice, ogromne maszyny drążące pod ziemią.
-
----
-
-# ŁKA — pociąg zamiast korka 🚆
-
-**Łódzka Kolej Aglomeracyjna** działa już teraz i jest najszybszym sposobem na przejazd przez miasto.
+**Łódzka Kolej Aglomeracyjna** działa już teraz i jest **najszybszym** sposobem na przejazd przez miasto.
 
 **Bilet? Ten sam co na tramwaj.**
 
-Jeśli masz bilet MPK (miesięczny lub czasowy) — jeździsz pociągami ŁKA w Łodzi **za darmo**.
+Jeśli masz bilet MPK (miesięczny lub czasowy) — jeździsz pociągami ŁKA w granicach Łodzi **bez dopłat**.
 
-> Z Widzewa na Radogoszcz pociągiem: kilka minut.  
-> Samochodem w korku: znacznie dłużej.
+> Z Widzewa na Radogoszcz pociągiem: kilka minut.
+> Samochodem w korku: znacznie, znacznie dłużej.
+
+Pociąg jedzie po torach ponad ulicami — korki go nie dotyczą.
 
 ---
 
-# Jak Łódź wypada na tle innych miast?
+# Łódź na tle innych miast
 
 | Miasto | Jak to działa |
 |--------|--------------|
-| **Warszawa** | Dużo linii, wiele przesiadek, metro pomaga |
-| **Kraków** | Centrum jest wąskie, tramwaje spowalniają |
-| **Śląsk** | Wiele miast połączonych, długie trasy |
-| **Łódź** | Prosta siatka + jeden węzeł przesiadkowy + ring |
+| **Warszawa** | Dużo linii, wiele przesiadek, metro ratuje sytuację |
+| **Kraków** | Centrum wąskie i zatłoczone, tramwaje spowalniają |
+| **Śląsk (GZM)** | Wiele miast połączonych, ale długie trasy i dużo przystanków |
+| **Łódź** | Prosta siatka + jeden główny węzeł + ring + tunel w budowie |
 
-Łódź ma świetny układ **na papierze** — ale stary sprzęt i niekończące się remonty robią swoje.
+Łódź ma układ **teoretycznie niemal idealny** — jeden główny węzeł przesiadkowy, proste linie, zamknięty ring na zewnątrz.
+
+W praktyce: stary sprzęt, zniszczone torowiska i niekończące się remonty robią swoje.
 
 ---
 layout: center
 ---
 
+<div style="max-width:700px;margin:0 auto;text-align:center;">
+
 # Łódź w skrócie
 
+<br>
+
 > Miasto z **najlepiej pomyślaną** siecią tramwajową w Polsce,  
-> **największymi** korkami,  
+> **największymi** korkami w kraju,  
 > **jedyną** zamkniętą autostradową obwodnicą  
-> i **największą** budową podziemnej kolei w kraju —  
+> i **największą** budową podziemnej kolei w historii Łodzi —  
 > wszystkim naraz.
+
+</div>
 
 ---
 layout: end
