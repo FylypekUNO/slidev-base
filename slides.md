@@ -70,7 +70,7 @@ style: |
 
 Łódź zbudowała pierwsze elektryczne tramwaje w **1898 roku** — 10 lat przed Warszawą. Sieć od zawsze wyznaczała, gdzie rosną osiedla.
 
-Dziś sieć opiera się na dwóch liniach krzyżujących się w centrum, pod wspólną wiatą zwaną **Stajnią Jednorożców**. Z prawie każdego osiedla możesz dojechać dokądkolwiek **jedną przesiadką w 30 sekund**.
+Dziś sieć opiera się na dwóch liniach krzyżujących się w centrum, pod wspólną wiatą zwaną **Stajnią Jednorożców**. Z prawie każdego osiedla możesz dojechać dokądkolwiek **jedną przesiadką**.
 
 ## Problem: torowiska niszczą się szybciej niż są remontowane
 
@@ -123,14 +123,3 @@ Kiedy tunel będzie gotowy, przejazd przez centrum pociągiem zajmie kilka minut
 Cały ruch tranzytowy omija centrum — stąd Łódź jest największym centrum logistycznym w tej części Europy.
 
 **Paradoks:** z zewnątrz Łódź jest doskonale skomunikowana. Wewnątrz — TomTom co roku wskazuje ją jako **najbardziej zakorkowane miasto w Polsce**, z czasem przejazdu przez centrum dłuższym w szczycie o 80–100%.
-
----
-layout: end
----
-
-# Źródła
-
-- [TomTom Traffic Index – Łódź](https://www.tomtom.com/traffic-index/lodz-traffic/)
-- [Wspólny Bilet ŁKA i MPK](https://lka.lodzkie.pl/Strefa-Pasazera/Wspolny-bilet-aglomeracyjny/)
-- [Historia łódzkich tramwajów – lodz.pl](https://lodz.pl/artykul/historia-lodzkich-tramwajow-od-konnych-do-niskopodlogowych-61122/)
-- [Projekt Tunelu Średnicowego](https://tunel-bdk.pl/)
