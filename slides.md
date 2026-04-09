@@ -1,232 +1,222 @@
 ---
 theme: default
 title: Łódź – miasto w ruchu
-info: |
-  Komunikacja miejska Łodzi: historia, tramwaje, korki, kolej i ring.
-highlighter: shiki
 transition: slide-left
 mdc: true
+style: |
+  :root {
+    --slidev-theme-primary: #e05a1a;
+  }
+  .slidev-layout {
+    background: linear-gradient(135deg, #fdf6ec 0%, #fce9d0 100%);
+    color: #2d1f0f;
+  }
+  .slidev-layout h1 {
+    color: #c44a0a;
+    border-bottom: 3px solid #e05a1a;
+    padding-bottom: 0.3em;
+  }
+  .slidev-layout h2 {
+    color: #b03a00;
+  }
+  blockquote {
+    border-left: 4px solid #e05a1a;
+    background: #fff3e8;
+    padding: 0.6em 1em;
+    border-radius: 0 8px 8px 0;
+    color: #5a2d00;
+  }
+  table {
+    background: #fffaf4;
+  }
+  th {
+    background: #e05a1a;
+    color: white;
+  }
+  td {
+    border-color: #f0c8a0;
+  }
+  .slidev-layout.center {
+    background: linear-gradient(135deg, #e05a1a 0%, #c44a0a 100%);
+    color: white;
+  }
+  .slidev-layout.center h1,
+  .slidev-layout.center h2 {
+    color: white;
+    border-color: rgba(255,255,255,0.4);
+  }
+  .slidev-layout.center blockquote {
+    background: rgba(255,255,255,0.15);
+    color: white;
+    border-left-color: white;
+  }
 ---
 
-# Łódź – miasto w ruchu
+# Łódź – miasto w ruchu 🚋
 
-Największa transformacja infrastrukturalna w powojennej historii miasta
+Jak wygląda komunikacja w mieście, które przebudowuje się na raz z kilku stron?
+
+---
+
+# Łódź dziś — dwa światy w jednym mieście
+
+**Świetna lokalizacja**
+
+Środek Polski. Każda trasa przez kraj prowadzi obok Łodzi.
+
+**Komunikacja w remoncie**
+
+Gdziekolwiek spojrzysz — coś jest zakopane, zamknięte albo objazdem.
+
+**Stare i nowe obok siebie**
+
+Rozpadające się kamienice przy ultra-nowoczesnym, podziemnym dworcu Łódź Fabryczna.
+
+---
+
+# Dlaczego Łódź wygląda inaczej niż inne miasta?
+
+Łódź wyrosła błyskawicznie — w XIX wieku z małej wsi do wielkiego miasta przemysłowego w ciągu kilkudziesięciu lat.
+
+Nie zdążyła zbudować centrum z rynkiem i uliczkami rozchodzącymi się na boki (jak Kraków).
+
+Zamiast tego — **siatka prostych ulic**, wszystkie prostopadle do siebie, główna oś to Piotrkowska.
+
+> Efekt: ulice są długie i proste. Tramwaj jedzie bez zakrętów, prawie po linii prostej.
+
+---
+
+# Tramwaje — Łódź miała je przed Warszawą 🚃
+
+| Rok | Co się stało |
+|-----|-------------|
+| **1898** | Pierwsze elektryczne tramwaje w Łodzi |
+| ok. **1908** | Dopiero wtedy tramwaje w Warszawie |
+| Wiek XX | Tramwaje dojeżdżały aż do Zgierza, Pabianic, Konstantynowa |
+
+Łódź od początku była budowana wokół tramwajów — i to widać do dziś w układzie ulic i osiedli.
 
 ---
 layout: two-cols
 ---
 
-# Kontrasty współczesnej Łodzi
+# Stajnia Jednorożców 🦄
 
-**Centralne położenie**
+Centrum sieci tramwajowej to przystanek **Centrum** — ogromna, kolorowa wiata.
 
-Najważniejszy węzeł logistyczny w Polsce.
-
-**Komunikacja: "miasto w budowie"**
-
-Permanentny stan przebudowy i remontów.
-
-**Zderzenie epok**
-
-Zabytkowe, sypiące się kamienice → podziemny dworzec Łódź Fabryczna, jeden z najnowocześniejszych węzłów multimodalnych w Europie.
+Spotykają się tu dwie linie:
+- tramwaj z **północy na południe**
+- tramwaj z **zachodu na wschód** (Retkinia ↔ Widzew)
 
 ::right::
 
-<div style="display:flex;align-items:center;justify-content:center;height:100%;font-size:6rem;">
-🏗️
-</div>
-
----
-
-# Geneza układu komunikacyjnego
-
-## Przemysłowa szachownica
-
-- **Eksplozja demograficzna w XIX w.** — z rolniczej osady do półmilionowej metropolii w niespełna 100 lat
-- **Brak średniowiecznego układu promienistego** jak w Krakowie
-- Rozwój oparty na **geometrycznej siatce ulic** wzdłuż osi Piotrkowskiej
-
-> Skutek: długie, proste arterie przelotowe — ruch odbywa się po liniach niemal idealnie prostych, skrzyżowania pod kątem prostym
-
----
-
-# Tramwaje jako DNA miasta
-
-## Historyczny fundament
-
-| Rok | Wydarzenie |
-|-----|------------|
-| **1898** | Pierwsze tramwaje elektryczne — przed Warszawą o 10 lat |
-| XIX–XX w. | Najdłuższa w Polsce sieć tramwajów podmiejskich |
-| Dziś | Sieć wyznacza kierunki rozwoju osiedli |
-
-Łódź połączyła tramwajami Zgierz, Ozorków, Pabianice, Konstantynów i Lutomiersk — zanim inne miasta zdążyły zelektryfikować śródmieścia.
-
----
-layout: two-cols
----
-
-# Geometria sieci
-
-## Stajnia Jednorożców
-
-**System Krzyża:**
-
-- **Oś N–S:** Łódzki Tramwaj Regionalny
-- **Oś W–Z:** Trasa W-Z (Retkinia ↔ Widzew)
-
-Centrum przecięcia: **Przystanek Centrum**
-
-Gigantyczna zadaszona wiata z kolorową membraną.
-
-::right::
-
-## Efekt: jedna przesiadka
+## Przesiadka w 30 sekund
 
 ```
-Dowolne osiedle
-       ↓
-  Stajnia Jednorożców  ←  30 sekund
-       ↓
-Punkt docelowy
+Twoje osiedle
+      ↓
+  Centrum 🦄
+      ↓
+Cel podróży
 ```
 
-Przesiadka bez przechodzenia przez skrzyżowania, w czasie dosłownie **30 sekund**.
+Z prawie każdego dużego osiedla w Łodzi możesz dojechać dokądkolwiek **jedną przesiadką**, bez wychodzenia poza wiatę, w dosłownie 30 sekund.
 
 ---
 
-# Ciemna strona — Remontoza
+# Problem: torowiska, które nie działają 😬
 
-## Śmierć techniczna torowisk
+Sporo tras tramwajowych jest zamkniętych — szyny są zbyt zniszczone, żeby po nich jeździć.
 
-- Kilometry torowisk **trwale wyłączone z ruchu**
-  - ul. Zielona
-  - fragmenty ul. Legionów
-  - ul. Warszawska
-- Stały element krajobrazu: **autobusy zastępcze za tramwaj**
-- Częste zmiany rozkładów
+- ul. Zielona
+- ul. Legionów (fragmenty)
+- ul. Warszawska
 
-**Paradoks prędkości:**
+Na tych trasach kursują **autobusy zamiast tramwajów** — co zmienia rozkłady i wydłuża podróże.
 
-Geometria trasy → Widzew–Retkinia w ~35–40 min,
-ale brak priorytetu na skrzyżowaniach (oś N–S) drastycznie obniża realną prędkość handlową.
+Do tego tramwaje często stoją na skrzyżowaniach tak samo długo jak samochody — bo nie mają pierwszeństwa.
 
 ---
 
-# Królestwo korków
+# Korki — Łódź niechlubnym liderem 🚗🚗🚗
 
-## Zmora kierowców
+Rankingi TomTom co roku pokazują Łódź na **1. miejscu w Polsce** i w czołówce Europy pod względem korków.
 
-**TomTom Traffic Index:**
+> W godzinach szczytu przejazd przez centrum zajmuje nawet dwa razy dłużej niż poza szczytem.
 
-> Łódź — **1. miejsce w Polsce**, czołówka Europy pod względem zatłoczenia
-
-| Wskaźnik | Wartość |
-|----------|---------|
-| Wydłużenie czasu przejazdu w szczycie | **+80–100%** |
-| Strefa dotknięta | całe Śródmieście |
-
-**Przyczyny:**
-- Historycznie wąskie ulice w centrum
-- Drogi rowerowe i woonerf-y ograniczają przepustowość
-- Kilkadziesiąt inwestycji drogowych prowadzonych jednocześnie
+**Dlaczego tak jest?**
+- Centrum ma wąskie ulice — mało miejsca dla aut
+- Nowe drogi rowerowe i deptaki zajęły część jezdni
+- Kilkadziesiąt budów i remontów naraz
 
 ---
 
-# Autostradowy Ring
+# Obwodnica — autostradowy ring 🛣️
 
-## Triumf logistyki zewnętrznej
+Łódź jest **jedynym miastem w Polsce**, które ma pełną, zamkniętą obwodnicę złożoną z autostrad i dróg ekspresowych:
 
-**Łódź — jedyne miasto w Polsce z pełną, zamkniętą obwodnicą klasy wyższej:**
-
-| Droga | Kierunek |
-|-------|---------|
+| Droga | Strona miasta |
+|-------|--------------|
 | **A1** | Wschód |
 | **A2** | Północ |
 | **S8** | Południe |
 | **S14** | Zachód |
 
-Cały ruch tranzytowy omija centrum → Łódź stała się **centrum logistycznym dla całej Europy Środkowej**.
+Ciężarówki i tranzyty omijają centrum całkowicie. Łódź jest przez to wielkim centrum magazynowym dla całej Europy.
 
 ---
 
-# Tunel Średnicowy
+# Tunel pod miastem — "łódzkie metro" 🚇
 
-## "Łódzkie Metro" — rewolucja podziemna
-
-Budowa podziemnego połączenia kolejowego:
+Trwa budowa podziemnej trasy kolejowej przez całe centrum:
 
 ```
-Łódź Fabryczna  →  Łódź Śródmieście  →  Łódź Polesie
-                                      →  Łódź Koziny
-                                      →  Łódź Kaliska
-                                      →  Łódź Żabieniec
+Łódź Fabryczna → Śródmieście → Polesie → Koziny
+                                        → Kaliska
+                                        → Żabieniec
 ```
 
-- Stacje podziemne pełnią funkcję **stacji metra**
-- Radykalne skrócenie czasu przejazdu przez centrum
-- Dziś: potężne utrudnienia — zamknięte ulice, tarcze TBM w pracy
+Kiedy tunel będzie gotowy — przejazd przez miasto pociągiem będzie szybki jak metro.
+
+Teraz trwa budowa: zamknięte ulice, ogromne maszyny drążące pod ziemią.
 
 ---
 
-# ŁKA i Integracja Biletowa
+# ŁKA — pociąg zamiast korka 🚆
 
-## Jedyny w pełni działający system
+**Łódzka Kolej Aglomeracyjna** działa już teraz i jest najszybszym sposobem na przejazd przez miasto.
 
-**Łódzka Kolej Aglomeracyjna** — najsprawniejszy i najszybszy środek transportu w mieście.
+**Bilet? Ten sam co na tramwaj.**
 
-**Wspólny Bilet:**
-- Migawka MPK Łódź działa w pociągach ŁKA w granicach miasta — **bez dopłat**
-- Bilet czasowy MPK obowiązuje tak samo
+Jeśli masz bilet MPK (miesięczny lub czasowy) — jeździsz pociągami ŁKA w Łodzi **za darmo**.
 
-**Przykład:**
-
-> Widzew → Radogoszcz / Teofilów pociągiem = nieporównywalnie szybciej niż autem lub tramwajem
-
-Pociąg pełni rolę **naziemnego metra** — omija zakorkowane ulice.
+> Z Widzewa na Radogoszcz pociągiem: kilka minut.  
+> Samochodem w korku: znacznie dłużej.
 
 ---
-layout: two-cols
----
 
-# Porównanie z metropoliami
+# Jak Łódź wypada na tle innych miast?
 
-| Miasto | Specyfika |
-|--------|-----------|
-| **Warszawa** | Wiele węzłów, duży zasięg, metro ratuje układ |
-| **Kraków** | Układ promienisty, wąskie gardła w centrum |
-| **GZM (Śląsk)** | Konurbacja wielu miast, duże straty czasu |
-| **Łódź** | Szachownica + jeden węzeł + ring + tunel |
+| Miasto | Jak to działa |
+|--------|--------------|
+| **Warszawa** | Dużo linii, wiele przesiadek, metro pomaga |
+| **Kraków** | Centrum jest wąskie, tramwaje spowalniają |
+| **Śląsk** | Wiele miast połączonych, długie trasy |
+| **Łódź** | Prosta siatka + jeden węzeł przesiadkowy + ring |
 
-::right::
-
-## Łódzki paradoks
-
-```
-Teoretycznie
-  układ IDEALNY
-       ↕
-W praktyce
-  zabity przez:
-  • zaniedbania sprzętowe
-  • permanentne remonty
-  • brak priorytetu
-    dla tramwajów
-```
+Łódź ma świetny układ **na papierze** — ale stary sprzęt i niekończące się remonty robią swoje.
 
 ---
 layout: center
 ---
 
-# Podsumowanie
-
-## Łódź komunikacyjna w jednym zdaniu
+# Łódź w skrócie
 
 > Miasto z **najlepiej pomyślaną** siecią tramwajową w Polsce,  
-> **najgorszym** natężeniem korków,  
-> **jedynym** zamkniętym autostradowym ringiem  
-> i **najambitniejszą** podziemną inwestycją kolejową w kraju —  
-> wszystkim jednocześnie.
+> **największymi** korkami,  
+> **jedyną** zamkniętą autostradową obwodnicą  
+> i **największą** budową podziemnej kolei w kraju —  
+> wszystkim naraz.
 
 ---
 layout: end
